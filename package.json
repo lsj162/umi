@@ -1,8 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "start": "umi dev --port 3000",
-    "build": "umi build",
+    "build:test": "umi build --env test",
+    "build:pre": "umi build --env pre",
+    "build:pro": "umi build --env pro",
+    "start": "umi dev --env pre --port 3000",
     "postinstall": "umi generate tmp",
     "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",

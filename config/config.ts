@@ -3,6 +3,7 @@ import routes from './routes';
 
 const yargs = require('yargs');
 const argv = yargs.argv;
+console.log('🚀 ~ file: config.ts ~ line 6 ~ argv', argv);
 
 const env: any = {
   // 生产
@@ -14,14 +15,20 @@ const env: any = {
   // 预发
   pre: {
     name: 'pre',
+    // api代理
+    api_host: 'https://api.xxx.com',
   },
   // 测试
   test: {
     name: 'test',
+    // api代理
+    api_host: 'https://api.xxx.com',
   },
   // 开发
   dev: {
     name: 'dev',
+    // api代理
+    api_host: 'https://api.xxx.com',
   },
 };
 

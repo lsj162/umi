@@ -8,3 +8,6 @@ declare module '*.svg' {
   const url: string;
   export default url;
 }
+
+// Fix: 环境变量
+declare const UMI_ENV: 'test' | 'dev' | 'pre' | false;

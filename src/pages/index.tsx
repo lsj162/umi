@@ -15,6 +15,8 @@ export default function IndexPage() {
     setWindows(window);
   }, []);
 
+  console.log('🚀 环境变量', UMI_ENV);
+
   return (
     <>
       <Helmet
