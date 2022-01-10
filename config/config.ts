@@ -27,6 +27,7 @@ const env: any = {
 
 // TODO: 删除 .umirc.ts 优先级更高。
 export default defineConfig({
+  history: { type: 'browser' },
   targets: {
     ie: 9,
   },
