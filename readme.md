@@ -1,24 +1,30 @@
-# 脚手架，初始化
+# `初始化`
 
-yarn create @umijs/umi-app
+    yarn create @umijs/umi-app
 
-# 项目，脚手架配置
+# `目录结构`
 
-- config
+    1. 路由
 
-  - config umi 配置
-  - routes 自定义路由
+        - config
+            - config umi 配置
+            - routes 自定义路由
 
-- package
+        -  src
+            - layouts
+            - pages
+            - services
+            - utils
 
-  - script 配置环境命令
-  - 提交验证
-  - 代码规范
+        - package
+            - script 配置环境命令
+            - 提交验证
+            - 代码规范
 
-# 安装官网自定义配置
+# `安装官网自定义配置`
 
-- 支持 ts，tsx
-- 支持 js，jsx
-- 支持 scss
-- 支持 less
-- 支持 hash
+    - 支持 ts，tsx
+    - 支持 js，jsx
+    - 支持 scss
+    - 支持 less
+    - 支持 hash
