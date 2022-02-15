@@ -1,9 +1,9 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'umi';
 import Helmet from 'react-helmet';
 import queryString from 'query-string';
-import styles from './index.module.less';
 
-import { useEffect, useState } from 'react';
+import styles from './index.module.less';
 
 export default function IndexPage() {
   const [windows, setWindows] = useState<any>({});
