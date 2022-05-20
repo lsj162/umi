@@ -32,7 +32,7 @@ const env: any = {
   },
 };
 
-// TODO: 删除 .umirc.ts，推荐两种配置方式二选一，.umirc.ts 优先级更高。123
+// TODO: 删除 .umirc.ts，推荐两种配置方式二选一，.umirc.ts 优先级更高。
 export default defineConfig({
   history: { type: 'browser' },
   targets: {
