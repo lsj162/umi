@@ -3,7 +3,6 @@ import routes from './routes';
 
 const yargs = require('yargs');
 const argv = yargs.argv;
-console.log('🚀 ~ file: config.ts ~ line 6 ~ argv', argv);
 
 const env: any = {
   // 生产
